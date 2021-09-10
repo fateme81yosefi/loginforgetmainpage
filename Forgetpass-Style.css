@@ -1,0 +1,74 @@
+html{
+    font-family: Vazir;
+    font-weight: bold;
+    height: 100%;
+    background: url(pic/forget.jpg);
+    background-filter: blur(1px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    height: 100%;
+    background-color: rgba(57, 10 ,88 ,.29);
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+    padding-bottom: 40%;
+    padding-top: 10vh;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9%;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.6), 0 17px 50px 0 rgba(0, 0, 0, 0.5);
+
+}
+.header2{
+    padding-bottom: 6vh;
+    font-size: x-large;
+    font-family: Vazir;
+    color: peachpuff;
+}
+
+.btn2{
+    padding: 3% 36%;
+    background: rgba(92, 23, 165, 0.2);
+    font-family: 'Vazir';
+    font-weight: bold;
+    color: #e5e9f1;
+    margin-top: 12%;
+    border-radius: 10px;
+}
+.icon2 {
+    padding: 9px;
+    background: #7442c4;
+    color: white;
+    min-width: 30px;
+    text-align: center;
+}
+
+.input-field2{
+    background: linear-gradient(45deg, rgba(248, 248, 246, 0.88), rgba(224, 224, 238, 0.79), rgb(255, 255, 255));
+    padding: 4% 0%;
+    border-style: solid;
+    border-color: rgba(5, 21, 80, 0.68);
+    /*font-family: Vazir;*/
+}
+
+.btn2:hover {
+    background: rgba(92, 23, 165, 0.5);
+    color: #eae5e0;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.66), 0 17px 50px 0 rgba(0, 0, 0, 0.34);
+
+}
+::placeholder{
+    color: #040018;
+    font-family: Vazir;
+    font-weight: bold;
+
+}

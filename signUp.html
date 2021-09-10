@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./fonts/vazir.css">
+    <link rel="stylesheet" href="signUp_Style.css">
+    <meta name="viewport" content="width=device_width">
+    <meta charset="UTF-8" >
+    <title>signUp</title>
+</head>
+<body>
+<form class="form3">
+    <div class="container3">
+
+        <HEADER class="header3">ثبت نام در وبسایت </HEADER>
+        <main>
+            <div class="input-container3">
+                <i class="fa fa-user icon3"></i>
+                <input class="input-field3" type="text" placeholder="  نام " name="name" required>
+            </div>
+            <div class="input-container3">
+                <i class="fa fa-envelope icon3"></i>
+                <input class="input-field3" type="text" placeholder="  ایمیل" name="email" required>
+            </div>
+            <div class="input-container3">
+                <i class="fa fa-user icon3"></i>
+                <input class="input-field3" type="text" placeholder="  نام كاربري" name="usrnm" required>
+            </div>
+
+            <div class="input-container3">
+                <i class="fa fa-key icon3"></i>
+                <input class="input-field3" type="password" placeholder="  رمز عبور" name="psw" required minlength="8">
+            </div>
+            <div class="input-container3">
+                <i class="fa fa-key icon3"></i>
+                <input class="input-field3" type="password" placeholder="  تکرار رمز عبور" name="rpsw" required minlength="8">
+            </div>
+
+            <div class="prifile">
+                <ul>
+                    <li><input type="checkbox" id="cb1" name="prof"/>
+                        <label for="cb1"><img src="./pic/men1.png" /></label>
+                    </li>
+                    <li><input type="checkbox" id="cb2" name="prof"/>
+                        <label for="cb2"><img src="./pic/men2.png" /></label>
+                    </li>
+                    <li><input type="checkbox" id="cb3" name="prof"/>
+                        <label for="cb3"><img src="./pic/women1.png" /></label>
+                    </li>
+                    <li><input type="checkbox" id="cb4" name="prof"/>
+                        <label for="cb4"><img src="./pic/women2.png" /></label>
+                    </li>
+                </ul>
+            </div>
+
+            <button type="submit" class="btn3">ثبت نام</button>
+        </main>
+    </div>
+</form>
+</body>
+</html>
